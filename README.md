@@ -1,5 +1,5 @@
 # AUTONMAP
-# recon — Automated Reconnaissance Tool
+# CTF recon — Automated Reconnaissance Tool
 
 **Author:** Daniel Fadrique  
 **GitHub:** github.com/DanielFadrique
@@ -46,8 +46,7 @@ sudo apt install nmap whatweb xclip
 ## Estructura de resultados
 
 ```
-results/
-└── autonmap/
+autonmap/
     ├── allPorts    # Salida grepable del escaneo completo
     ├── targeted    # Salida del escaneo de servicios
     └── whatweb     # Fingerprinting web (si puerto 80 abierto)
